@@ -16,6 +16,9 @@ import pairs from "../../Assets/Projects/IBM-pairs.png";
 import mn from "../../Assets/Projects/municipal-money.png";
 import kasilam from "../../Assets/Projects/kasilam.png";
 
+import photographygallery from "../../Assets/Projects/photography-website-v1.png";
+import photographyportfolio from "../../Assets/Projects/photography-website-v2.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -93,6 +96,29 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={photographygallery}
+              isBlog={false}
+              title="My Photography Gallery"
+              description="In this project, I leveraged my technical skills in web development to create a visually appealing photography gallery using React JS. By utilizing React's powerful components and efficient rendering, I was able to seamlessly organize and display my photography portfolio. This allowed me to showcase my skills not only in photography but also in web development and UI design."
+              ghLink="https://github.com/thabanglukhetho/Photography"
+              demoLink="https://thabanglukhetho.github.io/Photography/"      
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={photographyportfolio}
+              isBlog={false}
+              title="My Photography Portfolio"
+              description="As a self-learning web developer and photographer, I designed and developed my own photography portfolio using HTML, CSS, and JavaScript. I showcased my technical skills in web development by implementing responsive design, creating a user-friendly interface, and integrating dynamic features such as lightbox image viewing. Additionally, my photography skills were demonstrated through the selection and organization of high-quality images and the use of thoughtful captions and descriptions."
+              ghLink="https://github.com/realthabanglukhetho/photography"
+              demoLink="https://realthabanglukhetho.github.io/photography/"      
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
