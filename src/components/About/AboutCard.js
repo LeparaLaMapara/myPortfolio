@@ -23,6 +23,9 @@ function AboutCard() {
               <ImPointRight /> Calisthenics 
             </li>
             <li className="about-activity">
+              <ImPointRight /> Mixed Martial Arts 
+            </li>
+            <li className="about-activity">
               <ImPointRight /> 100/400 Meter Competative Sprinting 
             </li>
             <li className="about-activity">
@@ -30,6 +33,9 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> Music Production and Disc Jockey
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Travelling
             </li>
           </ul>
 

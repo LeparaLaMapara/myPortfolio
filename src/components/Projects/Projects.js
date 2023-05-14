@@ -36,64 +36,9 @@ function Projects() {
               imgPath={tfilters}
               isBlog={false}
               title="TfilterPy"
-              description="My Python package for implemeting Bayesian Filtering Methods. The tfilterspy package is a Python library for implementing Bayesian filter algorithms, widely used mathematical tools in estimation theory and control engineering"
+              description="The tfilterspy package is a powerful Python library I designed for implementing Bayesian filter algorithms, which are widely used mathematical tools in estimation theory and control engineering. This package showcases my strong technical skills in both software development and mathematical modeling, as well as my ability to apply these skills in the field of applied science. With tfilterspy, users can easily and efficiently apply Bayesian filtering methods to a variety of real-world applications, from tracking moving objects to forecasting future events. My deep understanding of Bayesian statistics and filtering methods is reflected in the design and functionality of the package, making it a reliable and effective tool for professionals in the field."
               ghLink="https://github.com/LeparaLaMapara/tfilterpy"
               demoLink="https://pypi.org/project/tfilterpy/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={kasilam}
-              isBlog={false}
-              title="Kasi'Lam Projects"
-              description="This a movement that I started with my younger brother that focuses on branding, webdesign and photography for township businesses. The aim is to helped township business go online using free hosting platforms."
-              ghLink="https://github.com/LeparaLaMapara/KasiLam"
-              demoLink="https://github.com/Kasilam-Projects"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={recommender}
-              isBlog={false}
-              title="Wits Course Recommendation System"
-              description="Implemented and deployed a course recommnedation system using K-modes clustering to recommend new 1st year students course combinations that maximise completing 1st succefully. The model achieved a Silhouette score of 80% and was deployed as PowerBI dashboard. The system was used by the faculty of humanities at the University of the Witwatersrand for the  general bachelor of arts degree. [PRIVATE REPO]"
-              ghLink="https://github.com/LeparaLaMapara/Wits-Recommendation-System"
-              // demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={covid}
-              isBlog={false}
-              title="Covid-19 Visualization Tool"
-              description=" Web-based dashboard for monitoring and visualizing COVID-19 cases in the Gauteng province of South Africa. The dashboard presents various charts and maps that show the number of confirmed cases, deaths, and recoveries by district, as well as trends over time. Additionally, the dashboard features a hotspot identification tool, which highlights areas with high incidence rates and clusters of cases. Users can filter and drill down into the data by various demographic and geographic factors, such as age group and municipality. The dashboard is/was intended to help public health officials and other stakeholders track the spread of COVID-19 and make informed decisions about resource allocation and intervention strategies."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://coviz-frontend.ba8fxxmw695.us-south.codeengine.appdomain.cloud/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={pairs}
-              isBlog={false}
-              title="IBM Environmental Intelligence Suite"
-              description="I designed and deployed a deep learning framework using TensorFlow 2.0 that includes advanced models like 2D-CNN, UNET, PCA-LSTM, and 3D-CNN for accurate seasonal forecasting. My work has been integrated into IBM's Environmental Intelligence Suite, which focuses on optimizing food and manufacturing supply chains, climate impact modeling, and global risk evaluation of food and other commodities. This solution demonstrates my technical proficiency in developing and implementing advanced deep learning models and its significant impact on solving real-world challenges in supply chain management, climate change, and global risk assessment."
-              ghLink="https://github.com/LeparaLaMapara/sarl-climate"
-              demoLink="https://www.ibm.com/products/environmental-intelligence-suite/geospatial-analytics" 
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={mn}
-              isBlog={false}
-              title="Municipal Money and Youth Explorer"
-              description="Implemented a AI system that assist South African Municipalities improve their service delivary and effieicncy by profiling them using SVM with a accuracy of 75%. Used PCA to identify factors that cause youth unemployment and predict youth unemployemnt rate using random forest with accuracy of 70%. The dashbaord  used a Django backend, Postgresql database, CSS/HTML front-end. This solution was developed for the municipality of Cape Town"
-              ghLink="https://github.com/LeparaLaMapara/DSIDE"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
 
@@ -116,6 +61,60 @@ function Projects() {
               description="As a self-learning web developer and photographer, I designed and developed my own photography portfolio using HTML, CSS, and JavaScript. I showcased my technical skills in web development by implementing responsive design, creating a user-friendly interface, and integrating dynamic features such as lightbox image viewing. Additionally, my photography skills were demonstrated through the selection and organization of high-quality images and the use of thoughtful captions and descriptions."
               ghLink="https://github.com/realthabanglukhetho/photography"
               demoLink="https://realthabanglukhetho.github.io/photography/"      
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kasilam}
+              isBlog={false}
+              title="Kasi'Lam Projects"
+              description="As an entrepreneur and advocate for supporting local businesses, I co-founded this movement with my younger brother to provide branding, web design, and photography services to township businesses. Our goal is to assist these businesses in establishing an online presence by utilizing free hosting platforms. Through this initiative, I have developed my skills in web design, branding, and photography, while also contributing to the growth and success of small businesses within our community."
+              ghLink="https://github.com/LeparaLaMapara/KasiLam"
+              // demoLink="https://github.com/Kasilam-Projects"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={recommender}
+              isBlog={false}
+              title="Wits Course Recommendation System"
+              description="In this project, I utilized my expertise in machine learning and data analysis to develop a course recommendation system for the faculty of humanities at the University of the Witwatersrand. Using K-modes clustering, I designed an algorithm that recommends course combinations for new first-year students to maximize their chances of completing their first year successfully. With a high Silhouette score of 80%, the model was deployed as a PowerBI dashboard, making it easy for faculty members to access and use. This project demonstrated my ability to develop and deploy a machine learning solution that meets the specific needs of an organization and enhances their decision-making process."
+              ghLink="https://github.com/LeparaLaMapara/Wits-Recommendation-System"
+              // demoLink="https://editor.soumya-jit.tech/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={covid}
+              isBlog={false}
+              title="Covid-19 Visualization Tool"
+              description="As an intern at the IBM Research Lab, I co-developed a web-based dashboard to monitor and visualize COVID-19 cases in the Gauteng province of South Africa. The dashboard utilized various data visualization techniques, such as charts and maps, to display the number of confirmed cases, deaths, and recoveries by district, as well as trends over time. To ensure maximum usability, the dashboard also included a hotspot identification tool, which highlighted areas with high incidence rates and clusters of cases. Additionally, I implemented a filtering and drill-down feature that allowed users to filter the data by demographic and geographic factors such as age group and municipality. Overall, the dashboard was designed to help public health officials and other stakeholders track the spread of COVID-19 and make informed decisions about resource allocation and intervention strategies"
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://coviz-frontend.ba8fxxmw695.us-south.codeengine.appdomain.cloud/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pairs}
+              isBlog={false}
+              title="IBM Environmental Intelligence Suite"
+              description="During my internship at IBM Research Lab, I designed and deployed a deep learning model using TensorFlow 2.0 that includes advanced models like 2D-CNN, UNET, PCA-LSTM, and 3D-CNN for accurate seasonal forecasting. My work has been integrated into IBM's Environmental Intelligence Suite, which focuses on optimizing food and manufacturing supply chains, climate impact modeling, and global risk evaluation of food and other commodities. By implementing this solution, we were able to achieve a significant reduction in forecasting errors, leading to a more efficient supply chain management and better risk assessment. This highlights my technical proficiency and expertise in developing advanced deep learning models and my ability to make a positive impact on real-world challenges in supply chain management, climate change, and global risk assessment."
+              demoLink="https://www.ibm.com/products/environmental-intelligence-suite/geospatial-analytics" 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={mn}
+              isBlog={false}
+              title="Municipal Money and Youth Explorer"
+              description="During my 3-month internship at CSIR, I implemented an AI system that assisted South African municipalities in improving their service delivery and efficiency. By profiling municipalities using SVM with an accuracy of 75%, I was able to identify areas for improvement and optimization. Additionally, I used PCA to identify factors that cause youth unemployment and predicted the youth unemployment rate using random forest with an accuracy of 70%. The dashboard was developed using a Django backend, Postgresql database, and CSS/HTML front-end. This solution was developed specifically for the municipality of Cape Town, and my work had a positive impact on the local community by helping to improve government services and address unemployment."
+              ghLink="https://github.com/LeparaLaMapara/DSIDE"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
 
