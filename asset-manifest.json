@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.42855f62.css",
+    "main.js": "/myPortfolio/static/js/main.7349ea91.js",
+    "static/js/415.4d6acbeb.chunk.js": "/myPortfolio/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/myPortfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/covid.jpg": "/myPortfolio/static/media/covid.6a2803c2f3239f1bb4b1.jpg",
+    "static/media/IBM-pairs.png": "/myPortfolio/static/media/IBM-pairs.dfe24f2ee2169a4d1469.png",
+    "static/media/municipal-money.png": "/myPortfolio/static/media/municipal-money.b8ce14609eea5922da54.png",
+    "static/media/home-main.svg": "/myPortfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/myPortfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/course-recomender.PNG": "/myPortfolio/static/media/course-recomender.aa67f47a20a69ad1dd48.PNG",
+    "static/media/Thabang_Mashinini_Resume.pdf": "/myPortfolio/static/media/Thabang_Mashinini_Resume.543dd193eab3b6a3cc53.pdf",
+    "static/media/avatar.svg": "/myPortfolio/static/media/avatar.c6642fed76a5d8c9b2647ca8ae67e730.svg",
+    "static/media/home-bg.jpg": "/myPortfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/kasilam.png": "/myPortfolio/static/media/kasilam.636289d4f1579976e82e.png",
+    "static/media/tfilters-logo.jpeg": "/myPortfolio/static/media/tfilters-logo.53c58143c015f537173e.jpeg",
+    "static/media/pre.svg": "/myPortfolio/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/myPortfolio/index.html",
+    "main.42855f62.css.map": "/myPortfolio/static/css/main.42855f62.css.map",
+    "main.7349ea91.js.map": "/myPortfolio/static/js/main.7349ea91.js.map",
+    "415.4d6acbeb.chunk.js.map": "/myPortfolio/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/myPortfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42855f62.css",
+    "static/js/main.7349ea91.js"
+  ]
+}
